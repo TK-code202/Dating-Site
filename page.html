@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Celebrity Dating Site</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+           
+
+            <div class="background">
+                <img src="img/pexels-photo-hearts.webp" alt="">
+            </div>
+
+            <div class="logo-section d-flex mt-2 ml-3">
+                <img src="img/logo.jpg" alt="logo">
+                <h5 class="mt-2 text-light">DATING SITE</h5>
+
+        
+            </div>
+        </div>
+
+        <form class=" was-validated bg-white w-50 p-3" id="formOne">
+            <div class="mb-3 mt-3">
+              <label for="Name" class="form-label">Please Enter Your Name</label>
+              <input type="text" class="form-control" id="Name" placeholder="Enter your first name"  required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="mb-3">
+              <label for="gender" class="form-label">Gender:</label>
+              <div>
+                <input type="radio"  name="Gender" value="Male" required>
+                <label for="Male" class="form-label">Male</label>  
+              </div>
+              <div>
+                <input type="radio" name="Gender"  value="Female" required>
+                <label for="Female" class="form-label">Female</label>
+              </div>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+              <label class="form-check-label" for="myCheck">I am 18 years and above.</label>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Check this checkbox to continue.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="celebrity.html">Celebrities</a>
+            </li>
+        </ul>
+
+        <div class="footer bg-dark footerFixPage">
+            <p class="text-center">©Copyright 2023 by TK</p>
+        </div>
+    </div>
+</body>
+</html>
