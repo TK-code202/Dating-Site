@@ -95,6 +95,7 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
+    //Female Form
     $(".formThree").submit(function(event) {
         const attribute = $("select#Character").val();
         const faveColor = $("input:radio[name=color]:checked").val();
@@ -173,6 +174,8 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
+
+    //Celebrity Profile Information
     $(".clickableOne").click(function() {
         $(".excessiveOne").slideToggle(1000);
     });
