@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Celebrity Dating Site</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+           
+
+            <div class="background2">
+                <img src="img/pexels-photo-hearts.webp" alt="">
+            </div>
+
+            <div class="logo-section d-flex mt-2 ml-3">
+                <img src="img/logo.jpg" alt="logo">
+                <h5 class="mt-2 text-light">DATING SITE</h5>
+
+        
+            </div>
+
+            <ul class="nav above">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="celebrity.html">Celebrities</a>
+                </li>
+            </ul>
+            <h2 class="mt-3 ml-5 instruction">💗💗 Please fill all the fields.</h2>
+        </div>
+
+        <form class="formTwo was-validated bg-white w-75 p-3 ml-5">
+           
+            <div class="partition">
+                <div>
+                    <h3>Your Personality Traits</h3>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">Which of these best describe you?</label>
+                        <select name="" id="character" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Humorous">Humorous</option>
+                            <option value="Social">Social</option>
+                            <option value="Calm">Calm</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="color" class="form-label">Which of these colors do you prefer?</label>
+                        <div>
+                        <input type="radio"  name="Color" value="Red" required>
+                        <label for="Red" class="form-label">Red</label>  
+                        </div>
+                        <div>
+                        <input type="radio" name="Color"  value="Blue" required>
+                        <label for="Blue" class="form-label">Blue</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="Color"  value="Green" required>
+                            <label for="Green" class="form-label">Green</label>
+                        </div>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What is your favourite pet?</label>
+                        <select name="" id="pet" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What genre of music do you prefer?</label>
+                        <select name="" id="music" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Pop">Pop</option>
+                            <option value="RB">R & B</option>
+                            <option value="Afro">Afro Beat</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                </div>
+                <div>
+                    <h3>Preferred Traits in Partner</h3>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What body shape do you prefer?</label>
+                        <select name="" id="body-shape" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Slim">Slim</option>
+                            <option value="Curvy">Curvy</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What height would you prefer?</label>
+                        <select name="" id="height" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Tall">Tall</option>
+                            <option value="Average">Average</option>
+                            <option value="Short">Short</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What skin tone do you prefer?</label>
+                        <select name="" id="skin" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="Light">Light</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Dark">Dark</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                    <button type="submit" class="btn btn-danger mt-5">Find Match</button>
+                </div>
+            </div>
+        </form> 
+
+        <div class="profile pic-one">
+            <h3>Your match is :</h3>
+            <img src="img/tonto.jpg" alt="">
+            <h4 class="bg-info profileName">Tontoh Dikeh</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @tontolet (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-two">
+            <h3>Your match is :</h3>
+            <img src="img/etiko.jpg" alt="">
+            <h4 class="bg-info profileName">Destiny Etiko</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @destinyetikooficial (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-three">
+            <h3>Your match is :</h3>
+            <img src="img/tessa thompson.jpg" alt="">
+            <h4 class="bg-info profileName">Tessa Thompson</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @tessamaethompson (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-four">
+            <h3>Your match is :</h3>
+            <img src="img/zendaya.jpg" alt="">
+            <h4 class="bg-info profileName">Zendaya</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @zendaya (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-five">
+            <h3>Your match is :</h3>
+            <img src="img/fox.jpg" alt="">
+            <h4 class="bg-info profileName">Megan Fox</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @meganfox (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-six">
+            <h3>Your match is :</h3>
+            <img src="img/johansson.jpg" alt="">
+            <h4 class="bg-info profileName">Scarlett Johansson</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @scarlettjohansson (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-seven">
+            <h3>Your match is :</h3>
+            <img src="img/rachel zegler.jpg" alt="">
+            <h4 class="bg-info profileName">Rachel Zegler</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @rachelzegler (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-eight">
+            <h3>Your match is :</h3>
+            <img src="img/ayrra.jpg" alt="">
+            <h4 class="bg-info profileName">Ayra Starr</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @ayrastarr (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-nine">
+            <h3>Your match is :</h3>
+            <img src="img/temi.jpg" alt="">
+            <h4 class="bg-info profileName">Temi Otedola</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @temiotedola (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-ten">
+            <h3>Your match is :</h3>
+            <img src="img/gomez.jpg" alt="">
+            <h4 class="bg-info profileName">Selena Gomez</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @selenagomez (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-eleven">
+            <h3>Your match is :</h3>
+            <img src="img/edo.jpg" alt="">
+            <h4 class="bg-info profileName">Ini Edo</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @iniedo (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-twelve">
+            <h3>Your match is :</h3>
+            <img src="img/pugh.jpg" alt="">
+            <h4 class="bg-info profileName">Florence Pugh</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @florencepugh (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-thirteen">
+            <h3>Your match is :</h3>
+            <img src="img/okojie.jpg" alt="">
+            <h4 class="bg-info profileName">Ini-Dima Okojie</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @inidimaokojie (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-fourteen">
+            <h3>Your match is :</h3>
+            <img src="img/bailey.jpg" alt="">
+            <h4 class="bg-info profileName">Halle Bailey</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @hallebailey (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-fifteen">
+            <h3>Your match is :</h3>
+            <img src="img/keys.jpg" alt="">
+            <h4 class="bg-info profileName">Alicia Keys</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @aliciakeys (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile pic-sixteen">
+            <h3>Your match is :</h3>
+            <img src="img/swift.jpg" alt="">
+            <h4 class="bg-info profileName">Taylor Swift</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @taylorswift (Instagram)</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
