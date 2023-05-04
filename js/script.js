@@ -1,4 +1,6 @@
+//User Interface Logic
 $(document).ready(function() {
+    // Gender Check
     $("#formOne").submit(function(event) {
         const gender  = $("input:radio[name=Gender]:checked").val();
         const nameInput = $("input#Name").val();
@@ -15,6 +17,7 @@ $(document).ready(function() {
     });
 
     $(".formTwo").submit(function(event) {
+        //Male Form
         const attributeInput = $("select#character").val();
         const colorInput = $("input:radio[name=Color]:checked").val();
         const petInput = $("select#pet").val();
