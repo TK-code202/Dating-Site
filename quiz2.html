@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Celebrity Dating Site</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+           
+
+            <div class="background2">
+                <img src="img/pexels-photo-hearts.webp" alt="">
+            </div>
+
+            <div class="logo-section d-flex mt-2 ml-3">
+                <img src="img/logo.jpg" alt="logo">
+                <h5 class="mt-2 text-light">DATING SITE</h5>
+
+        
+            </div>
+
+            <ul class="nav above">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="aboutUs.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="celebrity.html">Celebrities</a>
+                </li>
+            </ul>
+            <h2 class="mt-2 ml-5 Instruction">💗💗 Please fill all the fields.</h2>
+        </div>
+
+        <form class="formThree was-validated bg-white w-75 p-3 ml-5">
+            <div class="partition">
+                <div>
+                    <h3>Your Personality Traits</h3>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">Which of these best describe you?</label>
+                        <select name="" id="Character" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="humorous">Humorous</option>
+                            <option value="social">Social</option>
+                            <option value="calm">Calm</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="color" class="form-label">Which of these colors do you prefer?</label>
+                        <div>
+                        <input type="radio"  name="color" value="Pink" required>
+                        <label for="Pink" class="form-label">Pink</label>  
+                        </div>
+                        <div>
+                        <input type="radio" name="color"  value="Purple" required>
+                        <label for="Purple" class="form-label">Purple</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="color"  value="Yellow" required>
+                            <label for="Yellow" class="form-label">Yellow</label>
+                        </div>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What is your favourite pet?</label>
+                        <select name="" id="Pet" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What genre of music do you prefer?</label>
+                        <select name="" id="genre" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="pop">Pop</option>
+                            <option value="r and b">R & B</option>
+                            <option value="afro">Afro Beat</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                </div>
+                <div>
+                    <h3>Preferred Traits in Partner</h3>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What body build do you prefer?</label>
+                        <select name="" id="build" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="slim">Slim</option>
+                            <option value="muscular">Muscular</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What height would you prefer?</label>
+                        <select name="" id="Height" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="tall">Tall</option>
+                            <option value="average">Average</option>
+                            <option value="short">Short</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                    <div class="mt-3 mb-3">
+                        <label for="Q-One" class="form-label">What skin tone do you prefer?</label>
+                        <select name="" id="complexion" class="form-control" required>
+                            <option value="">Select an Option</option>
+                            <option value="light">Light</option>
+                            <option value="medium">Medium</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div> 
+                    </div>
+                    <button type="submit" class="btn btn-danger mt-5">Find Match</button>
+                </div>
+            </div>
+        </form> 
+
+        <div class="profile picOne">
+            <h3>Your match is :</h3>
+            <img src="img/jordan.jpg" alt="">
+            <h4 class="bg-info profileName">Michael B Jordan</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @michaelbjordan (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picTwo">
+            <h3>Your match is :</h3>
+            <img src="img/hart.jpg" alt="">
+            <h4 class="bg-info profileName">Kevin Hart</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @kevinhart4real (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picThree">
+            <h3>Your match is :</h3>
+            <img src="img/ojo.jpg" alt="">
+            <h4 class="bg-info profileName">Wole Ojo</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @kingwaleojo (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picFour">
+            <h3>Your match is :</h3>
+            <img src="img/evans.jpg" alt="">
+            <h4 class="bg-info profileName">Chris Evans</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @chrisevans (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picFive">
+            <h3>Your match is :</h3>
+            <img src="img/hemsworth.jpg" alt="">
+            <h4 class="bg-info profileName">Chris Hemsworth</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @chrishemsworth (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picSix">
+            <h3>Your match is :</h3>
+            <img src="img/holland.jpg" alt="">
+            <h4 class="bg-info profileName">Tom Holland</h4>
+            <ul>
+                <li>Nationality: British</li>
+                <li>Contact: @tomholland2013 (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picSeven">
+            <h3>Your match is :</h3>
+            <img src="img/chalamet.jpg" alt="">
+            <h4 class="bg-info profileName">Timothee Chalamet</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @tchalamet (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picEight">
+            <h3>Your match is :</h3>
+            <img src="img/derulo.jpg" alt="">
+            <h4 class="bg-info profileName">Jason Derulo</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @jasonderulo (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picNine">
+            <h3>Your match is :</h3>
+            <img src="img/radcliffe.jpg" alt="">
+            <h4 class="bg-info profileName">Daniel Radcliffe</h4>
+            <ul>
+                <li>Nationality: British</li>
+                <li>Contact: @daniel3940 (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picTen">
+            <h3>Your match is :</h3>
+            <img src="img/odunlade.jpg" alt="">
+            <h4 class="bg-info profileName">Odunlade Adekola</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @odunomoadekola (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picEleven">
+            <h3>Your match is :</h3>
+            <img src="img/bolanle.jpg" alt="">
+            <h4 class="bg-info profileName">Bolanle Ninalowo</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @iamnino_b (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picTwelve">
+            <h3>Your match is :</h3>
+            <img src="img/jemide.jpg" alt="">
+            <h4 class="bg-info profileName">Natse Jemide</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @natsejemide(Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picThirteen">
+            <h3>Your match is :</h3>
+            <img src="img/leonard.jpg" alt="">
+            <h4 class="bg-info profileName">Fredrick Leonard</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @freddieleonard (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picFourteen">
+            <h3>Your match is :</h3>
+            <img src="img/zuckerberg.jpg" alt="">
+            <h4 class="bg-info profileName">Mack Zuckerberg</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @zuck (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picFifteen">
+            <h3>Your match is :</h3>
+            <img src="img/mackie.jpg" alt="">
+            <h4 class="bg-info profileName">Anthony Mackie</h4>
+            <ul>
+                <li>Nationality: American</li>
+                <li>Contact: @anthonymackie (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picSixteen">
+            <h3>Your match is :</h3>
+            <img src="img/joshua.jpg" alt="">
+            <h4 class="bg-info profileName">Anthony Joshua</h4>
+            <ul>
+                <li>Nationality: British</li>
+                <li>Contact: @anthonyjoshua (Instagram)</li>
+            </ul>
+        </div>
+
+        <div class="profile picSeventeen">
+            <h3>Your match is :</h3>
+            <img src="img/wellington.jpg" alt="">
+            <h4 class="bg-info profileName">Bankole Wellington</h4>
+            <ul>
+                <li>Nationality: Nigerian</li>
+                <li>Contact: @bankywellington (Instagram)</li>
+            </ul>
+        </div>
+
+       
+    </div>
+</body>
+</html>
