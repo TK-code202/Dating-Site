@@ -1,0 +1,183 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;
+    object-position: bottom; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.logo-section h5 {
+    font-family: cursive;
+}
+.logo-section img {
+    max-width: 40px;
+    max-height: 50%;
+    border-radius: 100px;
+}
+
+.showcase {
+    width: 55%;
+    margin-top: 11%;
+    margin-left: 17%;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.main-text {
+    font-size: 1.8rem;
+    color: rgb(250, 250, 250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.small-text {
+    color: rgb(238, 33, 33);
+}
+
+.nav {
+    margin-top: 12%;
+    margin-left: 70%;
+    
+}
+
+.above {
+    margin-top: -3.5%;
+    margin-left: 70%;
+}
+
+.nav-link {
+    color: white;
+}
+
+#formOne {
+    margin-left: 17%;
+    margin-top: 6%;
+}
+
+.background2 img {
+    width: 100%;
+    height: 120%;
+    /* object-fit: cover;
+    object-position: bottom; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+/* .formTwo, .formThree{
+    display: none;
+} */
+.profile li {
+    list-style-type: none;
+    margin-left: 12%;
+}
+.profile img {
+    width: 55%;
+    margin-left: 19%;
+}
+
+.profile {
+    background-color: rgb(238, 33, 33);
+    padding: 10px;
+    width: 60%;
+    height: 80%;
+    margin-left: 22%;
+    margin-top: 8%;
+    display: none;
+}
+
+.profileName {
+    width: 55%;
+    margin-left: 19%;
+}
+
+.partition {
+    display: flex;
+    gap: 8%;
+}
+
+.paragraph {
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 60%;
+    color: rgb(255, 255, 255);
+}
+
+.paragraph P {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+   
+}
+
+.paragraph button {
+    width: 30%;
+    border-radius: 15px;
+}
+
+.row {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.col-sm img {
+    width: 90%;
+}
+
+.tag {
+    background-color: gainsboro;
+    width: 90%;
+}
+.background3 img {
+    width: 100%;
+    height: 190%;
+    /* object-fit: cover;
+    object-position: bottom; */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.excessiveOne, .excessiveTwo, .excessiveThree, .excessiveFour, .excessiveFive, .excessiveSix, .excessiveSeven, .excessiveEight, .excessiveNine {
+    display: none;
+}
+
+.clickableOne, .clickableTwo, .clickableThree, .clickableFour, .clickableFive, .clickableSix, .clickableSeven, .clickableEight, .clickableNine {
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 6%;
+    margin-right: -10%;
+   width: 105%;
+   color: white;
+   font-size: 1.1rem;
+   margin-bottom: 0;
+   min-height: 40px;
+}
+
+.about {
+    margin-top: 18.6%;
+}
+
+.footerFix {
+    margin-top: 22%;
+}
+
+.footerFixPage {
+    margin-top: 0%;
+}
