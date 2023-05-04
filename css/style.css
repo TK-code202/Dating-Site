@@ -10,6 +10,7 @@ body {
     padding: 0;
 }
 
+/* index.html */
 .background img {
     width: 100%;
     height: 100%;
@@ -63,6 +64,7 @@ body {
     color: white;
 }
 
+/* page.html */
 #formOne {
     margin-left: 17%;
     margin-top: 6%;
@@ -71,16 +73,12 @@ body {
 .background2 img {
     width: 100%;
     height: 120%;
-    /* object-fit: cover;
-    object-position: bottom; */
     position: absolute;
     z-index: -1;
     top: 0;
 }
 
-/* .formTwo, .formThree{
-    display: none;
-} */
+/* quiz.html & quiz2.html*/
 .profile li {
     list-style-type: none;
     margin-left: 12%;
@@ -110,6 +108,7 @@ body {
     gap: 8%;
 }
 
+/* aboutUs.html */
 .paragraph {
     margin-top: 8%;
     margin-left: 5%;
@@ -129,6 +128,7 @@ body {
     border-radius: 15px;
 }
 
+/* celebrity.html */
 .row {
     margin-top: 6%;
     margin-left: 6%;
